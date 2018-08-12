@@ -1,0 +1,1 @@
+$wnd.com_example_turnos_MyAppWidgetset.runAsyncCallback2('s1b(1747,1,fmh);_.dhb=function _9d(){this.ehb(this.b)};_.ehb=function aae(a){this.fhb(a)};_.fhb=function bae(a){};_.tg=function dae(){this.dhb();$5g.YHd().c8(this.a.Cd())};O4g(Gt)(2);\n//# sourceURL=com.example.turnos.MyAppWidgetset-2.js\n')

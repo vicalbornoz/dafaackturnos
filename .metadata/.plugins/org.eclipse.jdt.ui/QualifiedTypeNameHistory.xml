@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.vaadin.ui.Notification"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.CustomComponent"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.vaadin.external.org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="com.vaadin.external.org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.AbsoluteLayout"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.HorizontalSplitPanel"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.HorizontalLayout"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.Window"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.ComboBox"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.PasswordField"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.NativeButton"/>
+<fullyQualifiedTypeName name="org.vaadin.peter.contextmenu.ContextMenu"/>
+<fullyQualifiedTypeName name="org.vaadin.jouni.animator.AnimatorProxy"/>
+<fullyQualifiedTypeName name="com.github.wolfie.refresher.Refresher.RefreshListener"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.Embedded"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+</qualifiedTypeNameHistroy>

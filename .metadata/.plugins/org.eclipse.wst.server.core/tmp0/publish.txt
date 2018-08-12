@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Aug 11 13:42:13 ART 2018
+org.eclipse.jst.j2ee.server\:turnos-backend=WEB-INF/lib/turnos-backend-1.0-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:turnos-widgetset=WEB-INF/lib/turnos-widgetset-1.0-SNAPSHOT.jar
