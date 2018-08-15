@@ -10,4 +10,23 @@ $v-layout-margin: $v-layout-margin-top $v-layout-margin-right $v-layout-margin-b
 .mytheme {
   @include addons;
   @include mytheme;
+
+  .login-information {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background: $v-selection-color; // For IE8
+      background-color: rgba($v-selection-color, $login-info-opacity);
+      padding: $v-layout-margin;
+      color: valo-font-color($v-selection-color, 0.9);
+      @include animation(valo-animate-in-fade 1s 1s backwards);
+
+      h1 {
+        color: inherit;
+      }
+
+    }
 }

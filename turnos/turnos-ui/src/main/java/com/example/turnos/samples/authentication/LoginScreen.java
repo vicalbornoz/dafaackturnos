@@ -71,7 +71,7 @@ public class LoginScreen extends CssLayout {
         password.setWidth(15, Unit.EM);
         password.setDescription("Write anything");
         CssLayout buttons = new CssLayout();
-        buttons.setStyleName("buttons");
+        buttons.setStyleName("buttons-login");
         loginForm.addComponent(buttons);
 
         buttons.addComponent(login = new Button("Login"));
@@ -103,11 +103,11 @@ public class LoginScreen extends CssLayout {
     private CssLayout buildLoginInformation() {
         CssLayout loginInformation = new CssLayout();
         loginInformation.setStyleName("login-information");
-        Label loginInfoText = new Label(
-                "<h1>Login Information</h1>"
-                        + "Log in as &quot;admin&quot; to have full access. Log in with any other username to have read-only access. For all users, any password is fine",
-                ContentMode.HTML);
-        loginInformation.addComponent(loginInfoText);
+//        Label loginInfoText = new Label(
+//                "<h1>Login Information</h1>"
+//                        + "Log in as &quot;admin&quot; to have full access. Log in with any other username to have read-only access. For all users, any password is fine",
+//                ContentMode.HTML);
+//        loginInformation.addComponent(loginInfoText);
         return loginInformation;
     }
 

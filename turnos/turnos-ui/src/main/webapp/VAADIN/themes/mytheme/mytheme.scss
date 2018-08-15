@@ -31,7 +31,7 @@
 
 $v-luminance-threshold: 180 !default;
 
-$editor-background-color: #3b3f42 !default;
+$editor-background-color: #fafafa !default;
 $valo-menu-background-color: $editor-background-color !default;
 
 $v-focus-color: rgb(96, 160, 234) !default;
@@ -42,11 +42,11 @@ $v-font-size: 15px !default;
 $v-font-weight: 400 !default;
 $v-unit-size: 32px !default;
 
-$login-info-width: 300px !default;
+$login-info-width: 50% !default;
 $login-info-opacity: 0.7 !default;
 $login-background-color: $editor-background-color !default;
 // Get more background images from unsplash.com (remember to optimize the filesize)
-$login-background-image: "img/archetype-login-bg.jpg" !default;
+$login-background-image: "img/loginfoto.jpg" !default;
 
 $editor-shadow: 0 0 10px 10px rgba(0,0,0,.1) !default;
 $editor-embed-background-color: darken($editor-background-color, 5%) !default;
@@ -63,9 +63,15 @@ $v-layout-spacing-horizontal: round($v-unit-size / 1.8) !default;
 
 @import "../valo/valo.scss";
 
+$mat-background-color: #fafafa; // #fafafa for a light and #303030 for a dark theme
+$v-focus-color: #00BCD4; 
+// (You can find colors at materialpalette.com) $v-focus-color is supposed to be your accent color
+@import "../material/material.scss"; 
+
 
 @mixin mytheme {
   @include valo;
+  @include material;
 
 
   // login screen - for small screens, see below
@@ -73,7 +79,7 @@ $v-layout-spacing-horizontal: round($v-unit-size / 1.8) !default;
     background: $editor-background-color;
 
     @if $login-background-image {
-      background-image: url(#{$login-background-image});
+      background-image: none;
       background-size: cover;
       background-position: 50% 50%;
     }
@@ -82,10 +88,10 @@ $v-layout-spacing-horizontal: round($v-unit-size / 1.8) !default;
     height: 100%;
 
     .login-form {
-      @include valo-panel-style;
+      //@include valo-panel-style;
       border: none;
       padding: $v-layout-margin;
-      @include valo-animate-in-fade($duration: 1s);
+      @include valo-animate-in-fade($duration: 2s);
     }
 
     .login-information {
@@ -95,8 +101,10 @@ $v-layout-spacing-horizontal: round($v-unit-size / 1.8) !default;
       left: 0;
       width: $login-info-width;
       height: 100%;
-      background: $v-selection-color; // For IE8
-      background-color: rgba($v-selection-color, $login-info-opacity);
+//    background: $v-selection-color; // For IE8
+//    background-color: rgba($v-selection-color, $login-info-opacity);
+	  background-image : url(#{$login-background-image});
+	  background-size: cover;
       padding: $v-layout-margin;
       color: valo-font-color($v-selection-color, 0.9);
       @include animation(valo-animate-in-fade 1s 1s backwards);
@@ -227,6 +235,15 @@ $v-layout-spacing-horizontal: round($v-unit-size / 1.8) !default;
           }
         }
       }
+
+      .buttons-login {
+          width: 100%;
+          .v-button {
+            display: block;
+            text-align: center;
+          }
+          color: #29434e;
+        }
 
       .centering-layout {
         display: block;
