@@ -36,7 +36,8 @@ $valo-menu-background-color: $editor-background-color !default;
 
 $v-focus-color: rgb(96, 160, 234) !default;
 $v-error-indicator-color: #eb2977 !default;
-$v-friendly-color: rgb(54, 185, 85);
+//$v-friendly-color: rgb(54, 185, 85);
+$v-friendly-color: #29434e;
 
 $v-font-size: 15px !default;
 $v-font-weight: 400 !default;
@@ -103,8 +104,8 @@ $v-focus-color: #00BCD4;
       height: 100%;
 //    background: $v-selection-color; // For IE8
 //    background-color: rgba($v-selection-color, $login-info-opacity);
-	  background-image : url(#{$login-background-image});
-	  background-size: cover;
+	    background-image : url(#{$login-background-image});
+	    background-size: cover;
       padding: $v-layout-margin;
       color: valo-font-color($v-selection-color, 0.9);
       @include animation(valo-animate-in-fade 1s 1s backwards);
@@ -240,9 +241,9 @@ $v-focus-color: #00BCD4;
           width: 100%;
           .v-button {
             display: block;
-            text-align: center;
+            text-align: center; 
           }
-          color: #29434e;
+          background: #29434e!important;
         }
 
       .centering-layout {

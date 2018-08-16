@@ -2308,7 +2308,7 @@ body:not(.v-touch) :not(.v-upload) > :not(.v-component-group) > .v-button:not(.v
 }
 
 body:not(.v-touch) .friendly.v-button:not(.v-disabled):not(.borderless):not(.borderless-colored):hover {
-	background: #24e652;
+	background: #256079;
 }
 
 body:not(.v-touch) .custom.v-button:not(.v-disabled):not(.borderless):not(.borderless-colored):hover {
@@ -2336,7 +2336,7 @@ body:not(.v-touch) .v-button:not(.v-disabled).floating-action:not(.flat):hover, 
 }
 
 body:not(.v-touch) .v-button:not(.v-disabled).floating-action:not(.flat).friendly:hover {
-	background: #24e652;
+	background: #256079;
 }
 
 body:not(.v-touch) .v-button:not(.v-disabled).floating-action:not(.flat).danger:hover {
@@ -2360,7 +2360,7 @@ body:not(.v-touch) .v-button:not(.v-disabled).border.primary:hover {
 
 body:not(.v-touch) .v-button:not(.v-disabled).border.friendly:hover {
 	color: white;
-	background: #36b955 !important;
+	background: #29434e !important;
 }
 
 body:not(.v-touch) .v-button:not(.v-disabled).border.danger:hover {
@@ -2373,7 +2373,7 @@ body:not(.v-touch) .v-button:not(.v-disabled).borderless.primary:hover, body:not
 }
 
 body:not(.v-touch) .v-button:not(.v-disabled).borderless.friendly:hover {
-	background: rgba(36, 230, 82, 0.2) !important;
+	background: rgba(37, 96, 121, 0.2) !important;
 }
 
 body:not(.v-touch) .v-button:not(.v-disabled).borderless.danger:hover {
@@ -2465,7 +2465,7 @@ body:not(.v-touch) .v-upload:not(.v-disabled):not(.borderless):not(.flat):not(.b
 }
 
 body:not(.v-touch) .friendly.v-upload:not(.v-disabled):not(.borderless):not(.borderless-colored):hover {
-	background: #24e652;
+	background: #256079;
 }
 
 body:not(.v-touch) .custom.v-upload:not(.v-disabled):not(.borderless):not(.borderless-colored):hover {
@@ -2493,7 +2493,7 @@ body:not(.v-touch) .v-upload:not(.v-disabled).floating-action-upload:not(.flat):
 }
 
 body:not(.v-touch) .v-upload:not(.v-disabled).floating-action-upload:not(.flat).friendly:hover {
-	background: #24e652;
+	background: #256079;
 }
 
 body:not(.v-touch) .v-upload:not(.v-disabled).floating-action-upload:not(.flat).danger:hover {
@@ -2517,7 +2517,7 @@ body:not(.v-touch) .v-upload:not(.v-disabled).border.primary:hover {
 
 body:not(.v-touch) .v-upload:not(.v-disabled).border.friendly:hover {
 	color: white;
-	background: #36b955 !important;
+	background: #29434e !important;
 }
 
 body:not(.v-touch) .v-upload:not(.v-disabled).border.danger:hover {
@@ -2530,7 +2530,7 @@ body:not(.v-touch) .v-upload:not(.v-disabled).borderless.primary:hover, body:not
 }
 
 body:not(.v-touch) .v-upload:not(.v-disabled).borderless.friendly:hover {
-	background: rgba(36, 230, 82, 0.2) !important;
+	background: rgba(37, 96, 121, 0.2) !important;
 }
 
 body:not(.v-touch) .v-upload:not(.v-disabled).borderless.danger:hover {
@@ -12034,7 +12034,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 .mytheme .v-label-success, .mytheme .v-label-failure {
 	background: white;
 	color: #474747;
-	border: 2px solid #36b955;
+	border: 2px solid #29434e;
 	border-radius: 4px;
 	padding: 6px 16px 6px 32px;
 	font-weight: 500;
@@ -12046,7 +12046,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 	content: "\f00c";
 	margin-right: 0.5em;
 	margin-left: -16px;
-	color: #36b955;
+	color: #29434e;
 }
 
 .mytheme .v-label-failure {
@@ -12811,11 +12811,11 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 .mytheme .v-Notification.success, .mytheme .v-Notification.failure {
 	background: #fff;
 	color: #555;
-	border: 2px solid #36b955;
+	border: 2px solid #29434e;
 }
 
 .mytheme .v-Notification.success .v-Notification-caption, .mytheme .v-Notification.failure .v-Notification-caption {
-	color: #36b955;
+	color: #29434e;
 	font-weight: 500;
 }
 
@@ -22899,7 +22899,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 .mytheme .v-label-success, .mytheme .v-label-failure {
 	background: white;
 	color: #474747;
-	border: 2px solid #36b955;
+	border: 2px solid #29434e;
 	border-radius: 4px;
 	padding: 6px 16px 6px 32px;
 	font-weight: 500;
@@ -22911,7 +22911,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 	content: "\f00c";
 	margin-right: 0.5em;
 	margin-left: -16px;
-	color: #36b955;
+	color: #29434e;
 }
 
 .mytheme .v-label-failure {
@@ -23676,11 +23676,11 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 .mytheme .v-Notification.success, .mytheme .v-Notification.failure {
 	background: #fff;
 	color: #555;
-	border: 2px solid #36b955;
+	border: 2px solid #29434e;
 }
 
 .mytheme .v-Notification.success .v-Notification-caption, .mytheme .v-Notification.failure .v-Notification-caption {
-	color: #36b955;
+	color: #29434e;
 	font-weight: 500;
 }
 
@@ -24595,7 +24595,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme :not(.v-upload) > * > .v-button:not(.borderless):not(.border).friendly {
-	background: #36b955;
+	background: #29434e;
 	color: white;
 }
 
@@ -24642,8 +24642,8 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-button.border.friendly {
-	border: 1px solid #36b955;
-	color: #36b955;
+	border: 1px solid #29434e;
+	color: #29434e;
 }
 
 .mytheme .v-button.border.danger {
@@ -24669,7 +24669,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-button.borderless.friendly {
-	color: #36b955;
+	color: #29434e;
 }
 
 .mytheme .v-button.borderless.danger {
@@ -24704,7 +24704,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-button.floating-action.friendly {
-	background: #36b955;
+	background: #29434e;
 	color: white;
 }
 
@@ -25301,7 +25301,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-label-success {
-	background: #36b955;
+	background: #29434e;
 	color: white;
 }
 
@@ -25920,7 +25920,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-Notification.success, .mytheme .v-Notification.success .v-Notification-caption {
-	background: #36b955;
+	background: #29434e;
 	color: white !important;
 }
 
@@ -26077,7 +26077,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-upload:not(.borderless):not(.border).friendly {
-	background: #36b955;
+	background: #29434e;
 	color: white;
 }
 
@@ -26124,8 +26124,8 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-upload.border.friendly {
-	border: 1px solid #36b955;
-	color: #36b955;
+	border: 1px solid #29434e;
+	color: #29434e;
 }
 
 .mytheme .v-upload.border.danger {
@@ -26147,7 +26147,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-upload.borderless.friendly {
-	color: #36b955;
+	color: #29434e;
 }
 
 .mytheme .v-upload.borderless.danger {
@@ -26174,7 +26174,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 }
 
 .mytheme .v-upload.floating-action-upload.friendly {
-	background: #36b955;
+	background: #29434e;
 	color: white;
 }
 
@@ -27012,7 +27012,7 @@ body:not(.v-touch) .card-hoverable:hover, body.v-touch .card-hoverable:active {
 
 .mytheme .v-ui[width-range~="0-800px"] .login-screen .buttons-login {
 	width: 100%;
-	color: #29434e;
+	background: #29434e !important;
 }
 
 .mytheme .v-ui[width-range~="0-800px"] .login-screen .buttons-login .v-button {
